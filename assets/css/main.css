@@ -23,7 +23,30 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	list-style-type: disc;
+}
+
+.listMetas{
+	list-style-type: circle;
+	margin-left: 1.2rem;
+}
+
+.listTareas{
+	list-style-type: decimal;
+	font-size: 1.5rem;
+}
+
+.listTareas1{
+	list-style-type: decimal;
+	font-size: 1rem;
+}
+
+.imageGaant{
+	width: 90%;
+	height: 90%;
+}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1054,6 +1077,8 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25rem;
+			list-style-type: disc;
+			
 		}
 
 	ul {
@@ -1064,6 +1089,8 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5rem;
+			list-style-type: disc;
+			size: 20px;
 		}
 
 		ul.alt {
@@ -1433,14 +1460,15 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75rem 0.75rem;
+			text-align: center
 		}
 
 		table th {
 			color: rgba(255, 255, 255, 0.875);
-			font-size: 0.9rem;
+			font-size: 1.0rem;
 			font-weight: 400;
 			padding: 0 0.75rem 0.75rem 0.75rem;
-			text-align: left;
+			text-align: center;
 		}
 
 		table thead {
